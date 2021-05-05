@@ -1,13 +1,24 @@
-import Container from 'react-bootstrap/Container';
-
 const HomePage = () => {
   return (
-    <Container className="mt-5">
-      <main>
-        <h1>HOLA!, my name is Roberto</h1>
-        <p className="desc">This is the description</p>
-      </main>
-    </Container>
+    <>
+      <div className="display-1">Hola!,</div>
+      <h1 className="display-1">
+        I'm <strong className="text-primary">Roberto Muñoz</strong>
+      </h1>
+      <h2>I'm a Web Developer</h2>
+      <p className="desc text-center mt-5">
+        Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+        bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+      </p>
+    </>
   );
 };
 

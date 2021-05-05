@@ -1,9 +1,12 @@
 import NavbarComponent from './NavbarComponent';
+import { withRouter } from 'react-router';
+
+const NavbarWithRouter = withRouter(NavbarComponent);
 
 const Header = () => {
   return (
-    <header>
-      <NavbarComponent />
+    <header className="header">
+      <NavbarWithRouter />
     </header>
   );
 };
