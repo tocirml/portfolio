@@ -1,4 +1,11 @@
+import { useEffect } from 'react';
+import ReactGa from 'react-ga';
+
 const HomePage = () => {
+  useEffect(() => {
+    ReactGa.initialize('UA-196400719-1');
+    ReactGa.pageview(window.location.pathname);
+  }, []);
   return (
     <>
       <div className="display-1">Hola!</div>

@@ -6,14 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-196400719-1');
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// ReactGA.initialize('UA-196400719-1');
+// ReactGA.pageview(window.location.pathname + window.location.search);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
