@@ -1,6 +1,7 @@
 import Project from '../components/Project';
 import yugiImg from '../assets/yugioh.png';
 import bnsImg from '../assets/bns-sim.png';
+import weatherImg from '../assets/weather.png';
 
 const ProjectsPage = () => {
   return (
@@ -20,6 +21,14 @@ const ProjectsPage = () => {
         description="Ancient System simulator for Blade & Soul"
         link="https://bns-ancient-simulator.netlify.app/"
         githubLink="https://github.com/tocirml/bns-ancient-simulator"
+        technologies="React, Create-React-App, HTML, SASS, JS"
+      />
+      <Project
+        title="Weather App"
+        imgUrl={weatherImg}
+        description="Weather Application, check weather forecast with your city Id"
+        link="https://weather-app-tocirml.herokuapp.com/"
+        githubLink="https://github.com/tocirml/weather-app"
         technologies="React, Create-React-App, HTML, SASS, JS"
       />
     </>
